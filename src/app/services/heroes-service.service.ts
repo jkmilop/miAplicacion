@@ -10,10 +10,12 @@ export class HeroesServiceService {
     {
       nombre: 'Aquaman',
       bio: 'El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.',
-      img: 'assets/img/aquaman.png',
+      img: 'assets/img/aquaman.png', 
       aparicion: '1941-11-01',
       casa: 'DC',
-      id: 1
+      id: 1,
+      listImg: ['https://www.shutterstock.com/shutterstock/photos/1312477577/display_1500/stock-photo-bangkok-thailand-february-the-setting-of-aquaman-action-figure-with-the-ancient-ruin-1312477577.jpg',
+      'https://www.shutterstock.com/shutterstock/photos/1312646912/display_1500/stock-photo-bangkok-thailand-february-the-setting-of-aquaman-action-figure-with-the-ancient-ruin-1312646912.jpg']
     },
     {
       nombre: 'Batman',
@@ -64,7 +66,6 @@ export class HeroesServiceService {
       id: 7
     },
   ];
-
 
   constructor() { }
 

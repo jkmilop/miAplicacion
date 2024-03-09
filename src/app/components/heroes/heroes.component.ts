@@ -7,7 +7,7 @@ import { Heroe } from 'src/app/interfaces/heroes.interface';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.scss'],
 })
-export class HeroesComponent  implements OnInit {
+export class HeroesComponent implements OnInit {
 
   @Input() unosHeroes: Heroe[] = [];
   @Input() tipo!: string;
@@ -22,6 +22,8 @@ export class HeroesComponent  implements OnInit {
     this.router.navigate(['/det-heroe',unId])
   }
 
-  
+  navegarFotosHeroe(unId:any){
+    this.router.navigate(['/fotos-heroe',unId])
+  }
 
 }

@@ -5,4 +5,6 @@ export interface Heroe{
     aparicion: string;
     casa: string;
     id?: number;
+    
+    listImg?: string[];
   };
