@@ -10,6 +10,10 @@ const routes: Routes = [
     path: 'det-heroe/:id',
     loadChildren: () => import('./pages/det-heroe/det-heroe.module').then( m => m.DetHeroePageModule)
   }
+  {
+    path: 'fotos-heroe/:id',
+    loadChildren: () => import('./pages/fotos-heroe/fotos-heroe.module').then( m => m.FotosHeroePageModule)
+  }
 ];
 @NgModule({
   imports: [
