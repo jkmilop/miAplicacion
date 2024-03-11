@@ -22,8 +22,11 @@ export class HeroesComponent implements OnInit {
     this.router.navigate(['/det-heroe',unId])
   }
 
-  navegarFotosHeroe(unId:any){
-    this.router.navigate(['/fotos-heroe',unId])
+  navegarFotosHeroe(unId: any) {
+    // Navigate to fotos-heroes page with the hero ID
+    this.router.navigate(['/fotos-heroes', unId]);
   }
+  
+  
 
 }
